@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+/* the below code is inovoice */
+
+.invoice-header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.invoice-footer {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+/* the below code is feedback form related code */
+.input-field {
+    border-radius: 6px;
+    box-shadow: none;
+    font-weight: 500;
+    color: gray;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* the below code is login form related code */
+#registration-form {
+    width: 300px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#registration-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#registration-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+
+#registration-form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* the below code is buy now button pop related code */
+.course-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: green;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.course-register-card-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.course-register-card-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.course-register-card-input[type="text"],
+.course-register-card-input[type="email"],
+.course-register-card-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.course-register-button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.course-register-button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+/* the below code is actual style */
+.amount {
+    text-decoration: line-through;
+}
+
+.icon {
+    color: deepskyblue;
+    font-size: 22px;
+}
+
+.footer {
+    background-color: black;
+    margin-top: 5px;
+}
+
+.companies-images {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.description {
+    color: black;
+    font-family: SuisseWorks;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.heading {
+    color: black;
+    font-family: SuisseWorks;
+    font-weight: bold;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.caption-txt {
+    padding: 35px;
+}
+
+.landing-image-section {
+    background-image: url("https://res.cloudinary.com/dwv5mylrv/image/upload/v1712336968/Digital_Marketing_zuy4uw.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar-text {
+    color: black;
+    font-family: Caveat;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.top-heading {
+    text-align: center;
+    color: green;
+    background-color: deepskyblue;
+    font-family: SuisseWorks;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+}

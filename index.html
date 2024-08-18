@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Online Course Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="top-heading p-0">
+        <marquee direction="Right"><a href="#section2" style="color:white">Get Ready. Dont't Miss This Opportunity</a></marquee>
+    </div>
+    <nav class="navbar navbar-expand-lg mt-0 navbar-light bg-light ">
+        <a class="navbar-brand navbar-text ml-2 about-section-logo" href="#"><strong>Learners.Com</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mr-2" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link button-hover" id="#" href="#section1"><strong class="nav-item">Home</strong></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link button-hover" href="#section2"><strong>Courses</strong></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link button-hover" href="#section3"><strong>About</strong></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link button-hover" data-toggle="modal" data-target="#exampleModal1"><strong>LogIn</strong></a>
+                </li>
+                <li class="nav-item active m-2">
+                    <div class="profile">
+                        <i class="fa-solid fa-user"></i>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="landing-image-section" id="section1">
+
+    </section>
+    <div class="bg-light mt-2 caption-txt">
+        <h1 class="heading">All the skills you need in one place</h1>
+        <p class="description">From critical workplace skills to technical topics, our catalog supports well-rounded professional development.</p>
+    </div>
+    <h1 class="heading courses-txt mb-0 bg-white" id="section2">Courses</h1>
+    <hr />
+    <section class="mb-2 d-flex flex-row justify-content-center" style="flex-wrap: wrap">
+        <div class="card shadow m-2" style="width: 18rem;">
+            <img src="https://res.cloudinary.com/dwv5mylrv/image/upload/v1715669600/Java_1_vrlm5x.png" class="card-img-top mb-0">
+            <div class="card-body p-1 pb-2">
+                <h2 class="heading mb-0 mt-0">Python Programming</h2>
+                <p class="card-text text-center m-0 heading" style="color:gold">★★★★☆</p>
+                <h4 class="text-center description mt-0"> <span class="amount">499/-</span> Free</h4>
+                <div class="text-center">
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">By Now</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="card shadow m-2" style="width: 18rem;">
+            <img src="https://res.cloudinary.com/dwv5mylrv/image/upload/v1715669600/Java_1_vrlm5x.png" class="card-img-top mb-0">
+            <div class="card-body p-1 pb-2">
+                <h2 class="heading mb-0 mt-0">Python Programming</h2>
+                <p class="card-text text-center m-0 heading" style="color:gold">★★★★☆</p>
+                <h4 class="text-center description mt-0"> <span class="amount">499/-</span> Free</h4>
+                <div class="text-center">
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">By Now</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="bg-light d-flex flex-column justify-content-center p-4 text-center mt-3 mb-2">
+            <h1 class="heading">Trusted by Over 15,000 Companies and Millions of Learners Around the World</h1>
+            <div class="companies-images d-flex p-5 text-center">
+                <img src="https://res.cloudinary.com/dwv5mylrv/image/upload/v1712510832/citi_logo_se04sa.svg" class="m-3" />
+                <img src="https://res.cloudinary.com/dwv5mylrv/image/upload/v1712510950/volkswagen_logo_syqsac.svg" class="m-3" />
+                <img src="https://res.cloudinary.com/dwv5mylrv/image/upload/v1712510939/samsung_logo_r7exq8.svg" class="m-3" />
+                <img src="https://res.cloudinary.com/dwv5mylrv/image/upload/v1712510925/cisco_logo_wj7hoe.svg" class="m-3" />
+                <img src="https://res.cloudinary.com/dwv5mylrv/image/upload/v1712510913/att_logo_jcgxgi.svg" class="m-3" />
+                <img src="https://res.cloudinary.com/dwv5mylrv/image/upload/v1712510882/hewlett_packard_enterprise_logo_vxz18q.svg" class="m-3" />
+                <img src="https://res.cloudinary.com/dwv5mylrv/image/upload/v1712510957/procter_gamble_logo_einryh.svg" class="m-3" />
+            </div>
+        </div>
+    </section>
+    <section id="section3">
+        <div class="about-container bg-white p-3">
+            <h1 class="heading text-center">About</h1>
+            <div class="d-flex flex-row">
+                <h1 class="navbar-text mt-5 about-section-logo" style="font-size:50px">Learners.Com</h1>
+                <div class="">
+                    <li class="description ml-5">We are Providing all Courses in Reasonable Cost it is Useful for all Beginers and who are Trying to a Job We are Providing Paid Internships, Project for Practice and Jobs.</li>
+                    <li class="description ml-5">We are also Providing Live Sessions and Recording Classes and Weekend Tests. There is a Offer to You if Refferal to Your 3 Friends and You Get One Free Course From <strong class="navbar-text">Learners.Com</strong> </li>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="button" class="btn btn-outline-warning button-hover" data-toggle="modal" data-target="#exampleModal2">Feedback</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer mt-3">
+        <h1 class="heading text-center" style="color:#d1d7dc">Top Companies Choose <span class="navbar-text ml-1 mr-1" style="color:#d1d7dc"><strong>Learners.Com</strong></span> to Build in-demand Career Skills.</h1>
+        <div class="d-flex flex-row justify-content-center">
+            <div class="col-5 col-lg-6">
+                <h1 class="navbar-text text-center" style="color:#d1d7dc"><strong class="text-center">Learners.Com</strong></h1>
+                <p class="description" style="color:#d1d7dc">We are a young Company always looking for new and creative ideas to help you with our products in our everyday work...!<br /><span style="color:orange">...OUR TEAM...</span></p>
+            </div>
+
+            <div class="col-6 col-lg-6 ">
+                <h1 class="heading text-center" style="color:#d1d7dc">Get Touch With Us...</h1>
+
+                <div class="d-flex flex-row text-center mb-0">
+                    <i class="fa-solid fa-location-dot icon mr-1 mt-3"></i>
+                    <p class="description mt-1" style="color:#d1d7dc">Karmanghat,SaroorNagar,HYD</p>
+                </div>
+                <div class="d-flex flex-row text-center mb-0">
+                    <i class="fa-solid fa-phone icon mr-1 mt-3 mb-0"></i>
+                    <p class="description mt-1" style="color:#d1d7dc">Phone: 9347640227</p>
+                </div>
+                <div class="d-flex flex-row text-center mb-0">
+                    <i class="fa-solid fa-envelope icon mr-1 mt-3 "></i>
+                    <p class="description mt-1" style="color:#d1d7dc">E-mail: <strong style="color:orange">omkarrajak@gmail.com</strong></p>
+                </div>
+            </div>
+        </div>
+        <h4 class="text-center description" style="color:#d1d7dc">2024 <span class="far fa-copyright"></span> <span class="navbar-text" style="color:#d1d7dc">Learners.Com </span>All Rights Reserved.</h4>
+    </footer>
+    <!-- the above code is orginal -->
+    <!-- the below code is modals -->
+    <!-- buy now Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Register for a Course</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- this code is pop up code  -->
+                <div class="modal-body m-auto container shadow-5">
+                    <form action="#">
+                        <div class="form-group">
+                            <label class="course-register-card-label" for="name">Name</label>
+                            <input class="course-register-card-input" type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="course-register-card-label" for="email">Email</label>
+                            <input class="course-register-card-input" type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="course">Course</label>
+                            <select class="course-register-card-select" id="course" required>
+                                <option value="">Select a course</option>
+                                <option value="Python">Python</option>
+                                <option value="Java">Java</option>
+                                <option value="Web Development">Web Development</option>
+                                <option value="C++ Language">C++ Language</option>
+                                <option value="C Language">C Language</option>
+                                <option value="Angular">Angular</option>
+                                <option value="Android Development">Android Development</option>
+                                <option value="React JS">React JS</option>
+                            </select>
+                        </div>
+                        <div class="text-center mt-1">
+                            <button type="button" onclick="register()" class="btn btn-success course-register-button button-hover" data-toggle="modal" data-target="#exampleModal3">Register</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- log in Modal -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Log In</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- ligin form body -->
+                    <div id="registration-form" class="mr-auto">
+                        <form id="course-registration">
+                            <label for="course-name">Username:</label><br>
+                            <input type="text" id="course-name" name="course-name" required=""><br>
+
+                            <label for="student-name">Student Name:</label><br>
+                            <input type="text" id="student-name" name="student-name" required><br>
+
+                            <label for="student-name">Phone:</label><br>
+                            <input type="text" id="student-name" name="student-name" required><br>
+
+                            <label for="student-name">Password:</label><br>
+                            <input type="text" id="student-name" name="student-name" required><br>
+
+
+                            <button class="btn btn-success" type="submit">LogIn</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feedback modal -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Feedback</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Feedback form body -->
+
+                    <div class="d-flex flex-row justify-content-center p-3" style="flex-wrap:wrap">
+                        <div class="field name">
+                            <input type="text" class="input-field" placeholder="Your Name" required />
+                        </div>
+                        <div class="field email">
+                            <input type="email" class="input-field" placeholder="Your Email" required />
+                        </div>
+                        <div class="field">
+                            <input type="text" class="input-field" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="25" rows="5" class="input-field" placeholder="Message..." required></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- inovoice -->
+
+
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Invoice</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Feedback form body -->
+                    <div>
+                        <div class="invoice-header">
+                            <p>Invoice Number: 00123</p>
+                            <p>Date: January 1, 2023</p>
+                        </div>
+                        <table class="mb-2">
+                            <tr>
+                                <th>Bill To:</th>
+                                <td id="billtoName"></td>
+                            </tr>
+                            <tr>
+                                <th>Email:</th>
+                                <td id="emailTo"></td>
+                            </tr>
+                            <tr>
+                                <th>Phone:</th>
+                                <td id="phoneTo"></td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <th>Item</th>
+                                <th>Description</th>
+                                <th>Price</th>
+                                <th>Total</th>
+                            </tr>
+                            <tr>
+                                <td id="courseitem">Item 1</td>
+                                <td>Description of Item 1</td>
+                                <td>499/-</td>
+                                <td>FREE</td>
+                            </tr>
+                        </table>
+                        <div class="text-center m-1">
+                            <button class="btn btn-success" onclick="window.print()">Download</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
